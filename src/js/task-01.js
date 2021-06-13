@@ -4,14 +4,8 @@ const getParentEl = document.querySelector("#categories");
 // =================================================================================== TASK 1
 
 const getListOfParentEl = getParentEl.children;
-// console.log(getListOfParentEl);
-console.log(`В списке ${getListOfParentEl.length} категории`);
 
-// const getListOfLiEl = document.querySelector(".item");
-// console.log(`Категория: ${getListOfLiEl.querySelector("h2").textContent}`);
-// console.log(
-//   `Количество элементов: ${getListOfLiEl.querySelector("ul").children.length}`
-// );
+console.log(`В списке ${getListOfParentEl.length} категории`);
 
 const builtCategoriesParams = (elem) => {
   return elem.forEach((stringBuilder) =>
