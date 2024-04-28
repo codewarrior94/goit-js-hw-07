@@ -51,3 +51,9 @@ img {
   color: #FFFFFF;
 }
 
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: space-between;
+}
